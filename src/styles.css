@@ -3,11 +3,6 @@
     --secondary-color: #a995e4;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
-  
-  body {
-    margin: 60px auto;
-    max-width: 800px;
-  }
 
   .hero {
     background-color: var(--secondary-color) ;
