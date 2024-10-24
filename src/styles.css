@@ -60,6 +60,25 @@
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
+
+  .about-section {
+    padding: 160px 20px;
+  }
+
+  .about-section-content {
+  margin: 30px;
+  }
+
+  .about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--primary-color);
+  }
+
+  .about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+  }
   
   .homepage-link {
     color: var(--primary-color);
@@ -73,6 +92,20 @@
   
   .about-paragraphs p {
     margin: 10px;
+  }
+
+  .about-img {
+    border-radius: 15px;
+    max-width: 400px;
+  }
+
+  .btn-branding {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
   }
   
   .email-link {
@@ -114,6 +147,20 @@
         padding: 10px;
     }
 
+    .about-section {
+      padding:20px;
+    }
+
+    .about-img {
+      max-width:325px;
+      margin-bottom: 25px;
+    }
+
+    .btn-branding {
+      display: flex;
+      justify-content: center
+    }
+
     .primary-link {
         display: flex;
         justify-content: center;
@@ -130,4 +177,14 @@
         text-align: center;
       }
 
+  }
+
+  @media (max-width: 768px) {
+    .about-img {
+      margin-bottom: 25px;
+    }
+
+    .about-section {
+      padding:20px;
+    }
   }
