@@ -49,6 +49,16 @@
     text-decoration: none;
     text-transform: capitalize;
   }
+
+  #contact {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  #contact a {
+    color: antiquewhite;
+  }
   
   .contact-link {
     background: var(--primary-color);
@@ -69,14 +79,14 @@
   margin: 30px;
   }
 
-  .about-section h1 {
+  .sub-page {
     font-size: 64px;
     line-height: 80px;
     color: var(--primary-color);
   }
 
   .about-section h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: var(--default-font-family);
   }
   
