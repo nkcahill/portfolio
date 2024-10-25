@@ -269,4 +269,8 @@
     .about-section {
       padding:20px;
     }
+
+    footer .contact-box {
+      padding: 40px;
+    }
   }
